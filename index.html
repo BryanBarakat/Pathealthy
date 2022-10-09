@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Check out your current health status with the bmi test">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>pathealthy.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="peas.png">
+</head>
+<body>
+    <nav>
+        <div class="title">
+            <h1><a href="index.html"><img class="image-title" src="peas.png">  Pathealthy</a></h1>
+        </div>
+        <div class="nav-options">
+            <ul>
+                <li class="bmi-option" id="first-option"><a id="first-option2" href="#">BMI</a></li>
+                <li id="second-option"><a id="second-option2" href="#">RFM</a></li>
+                <li id="third-option"><a id="third-option2" href="#">BAI</a></li>
+                <li id="fourth-option"><a id="fourth-option2" href="#">WC</a></li>
+                <li id="fifth-option"><a id="fifth-option2" href="#">WHR</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <a href="#">HELP</a>
+        </div>
+    </nav>
+    <div class="bg" id="bg"></div>
+    <div class="content-1" id="content-1">
+        <div class="slogan">
+            <h1>TRACK YOURSELF,<br><span>KNOW YOUR OWN BODY BETTER</span></h1>
+        </div>
+        <div class="button" id="button">
+            <h2><a href="#">Get Started</a></h2>
+        </div>
+    </div>
+    <div class="content-2" id="content-2">
+        <div class="chart" id="charted">
+            <img class="chart-img" src="chart2.png" alt="">
+            <img class="circle-chart" src="circle.png" alt="">
+            <img id="hand-chart" class="hand-chart" src="hand.png" alt="">
+        </div>
+        <form autocomplete="off">
+            <div class="choice-unit2">
+                <input class="select-imp" type="radio" id="male" name="options2" value="Male" checked>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="options2" value="Female">
+                <label for="female">Female</label><br>
+            </div>
+            <br>
+            <p class="head select">Select a unit:</p>
+            <div class="choice-unit">
+                <input class="select-imp" type="radio" id="metric" name="options" value="metric" checked>
+                <label for="metric">Imperial</label><br>
+                <input type="radio" id="imperial" name="options" value="imperial">
+                <label for="imperial">Metric</label><br>
+            </div>
+            <br><p class="head fill">Fill the information below:</p>
+            <div class="height-weight">
+                <p id="title-height">Height:</p>
+                <input class="int height" type="number" min="1" id="height">
+                <label for="height" id="height_label">ft</label>
+                <input class="int height2" type="number" min="1" id="height2">
+                <label for="height2" id="height2_label">in</label>
+            </div>
+            <div class="height-weight2">
+                <p id="title-weight">Weight:</p>
+                <input class="int weight" type="number" min="1" id="weight">
+                <label for="weight" id="weight_st">lbs</label>
+                <input class="int weight2" type="number" min="1" id="weight2">
+                <label for="weight2" id="weight2_label">lbs</label>
+            </div>
+            <div class="button_results1" id="button_results1">
+                <a>GET RESULTS</a>
+            </div>
+            <div class="reset_button" id="reset_button">
+                <a>RESET</a>
+            </div>
+        </form>
+    </div>
+    <div class="news-bar" id="news">
+        <h2 id="news_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod quam, et tempora perferendis vero facilis, officiis eum sed vitae delectus hic expedita, ex consequatur excepturi placeat earum dolor! Ullam.</h2>
+    </div>
+    <div class="content-3" id="content-3">
+        <form autocomplete="off">
+            <div class="choice-unit2">
+                <input class="select-imp" type="radio" id="male" name="options2" value="Male" checked>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="options2" value="Female">
+                <label for="female">Female</label><br>
+            </div>
+            <br>
+            <p class="head select">Select a unit:</p>
+            <div class="choice-unit">
+                <input class="select-imp" type="radio" id="metric" name="options" value="metric" checked>
+                <label for="metric">Imperial</label><br>
+                <input type="radio" id="imperial" name="options" value="imperial">
+                <label for="imperial">Metric</label><br>
+            </div>
+            <br><p class="head fill">Fill the information below:</p>
+            <div class="height-weight">
+                <p id="title-height">Height:</p>
+                <input class="int height" type="number" min="1" id="height">
+                <label for="height" id="height_label">ft</label>
+                <input class="int height2" type="number" min="1" id="height2">
+                <label for="height2" id="height2_label">in</label>
+            </div>
+            <div class="height-weight2">
+                <p id="title-weight">Weight:</p>
+                <input class="int weight" type="number" min="1" id="weight">
+                <label for="weight" id="weight_st">lbs</label>
+                <input class="int weight2" type="number" min="1" id="weight2">
+                <label for="weight2" id="weight2_label">lbs</label>
+            </div>
+            <div class="waistage">
+                <p id="title-waist">Waist:</p>
+                <input class="int waist" type="number" min="1" id="waist">
+                <label for="waist" id="waist_cm">cm</label>
+            </div>
+            <div class="button_results1" id="button_results1">
+                <a>GET RESULTS</a>
+            </div>
+            <div class="reset_button" id="reset_button">
+                <a>RESET</a>
+            </div>
+        </form>
+        <div class="news-bar2" id="news2">
+            <h2 id="news_text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod quam, et tempora perferendis vero facilis, officiis eum sed vitae delectus hic expedita, ex consequatur excepturi placeat earum dolor! Ullam.</h2>
+        </div>
+    </div>
+    <div class="content-4" id="content-4"></div>
+    <div class="content-5" id="content-5"></div>
+    <div class="content-6" id="content-6"></div>
+    <div class="footer" id="footer">
+        <h6>Powered by @bryanbarakat</h6>
+        <h6>itsbryanbarakat@gmail.com</h6>
+        <h6>All rights reserved</h6>
+    </div>
+    <div class="error">
+        <h3 class="fill-please" id="filler">Please fill in the information required</h3>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
